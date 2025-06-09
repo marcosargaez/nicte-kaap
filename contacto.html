@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Página de Contacto</title>
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/LOGO 2.png"></a>
+        <h1>NICTÉ KAAP´</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href= "index.html">INICIO</a></li>
+                <li><a href="Quienes Somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Contáctanos</h1>
+        <div class="contacto">
+            <!-- Formulario de contacto -->
+            <div class="formulario-contacto">
+                <h2>Envíanos un mensaje</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="info-contacto">
+                <h2>Visítanos</h2>
+                <p>Dirección: Callejon Rumbo a Remate, Mano Izquierda.
+                <p>Teléfono: +52 997 102 8227
+                <p>Email: vidalpatcolli@gmail.com</p>
+    
+                <!-- Google Maps -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.862686815878!2d-90.25429128168736!3d20.51185450213225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f88dc4cc5b895d%3A0xd6a8819ae65defd9!2sMielera%20familia%20Pat!5e0!3m2!1ses!2smx!4v1749184841855!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 NICTÉ KAAP´. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/1C4dE1VuYR/" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/mielfamiliapat?igsh=ZHI0MTc5ajI1cm5n" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: vidalpatcolli@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/LOGO 2.png"></a>
+        <h1>NICTÉ KAAP´</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href= "index.html">INICIO</a></li>
+                <li><a href="Quienes Somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/LOGO4 SIN FONDO - copia.png" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>Mi empresa</h2>
+                <p>Bienvenidos a un espacio dedicado a la esencia pura de la miel melipona y sus tesoros naturales. Aquí no solo rendimos homenaje a las abejas sagradas de la tradición maya, sino también a todos los productos que nacen de su inigualable labor: miel cruda, jabones artesanales, ungüentos curativos, cosméticos naturales y el polen dorado de la selva.</p>
+                    <BR>
+                <p>Cada artículo que ofrecemos está inspirado en el equilibrio entre la tierra y el ser humano, elaborado con respeto, cuidado y conciencia. Nos enorgullece compartir contigo el fruto de un proceso ancestral que combina sabiduría, ciencia natural y un profundo amor por lo auténtico. Este es un lugar para quienes buscan calidad, bienestar y conexión con la naturaleza a través de productos que sanan, nutren y transforman.</p>
+   
+            </div>
+        </section>
+                <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2></h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="Fondo.jpg" alt="producto 1">
+                    <div class="producto-info">
+                        <h2>Casa De Abejas</h2>
+                        <p>Estas cajas son utilizadas para la apicultura donde las abejas(abejas sin aguijon) producen miel. Las colmenas estan organizadas en estanderias, y cada caja de madera sirve como ábitat por colonia de abejas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+                    
+            
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestros Productos </h2>
+            <div class="brands">
+                <img src="imagen/Productos/Facial.jpg" alt="Collar de Henequén">
+                <img src="imagen/Productos/Mieeel.jpg" alt="Abanico">
+                <img src="imagen/Productos/Habanero.jpg" alt="Bolsa De Henequén">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 NICTÉ KAAP´. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/1C4dE1VuYR/" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/mielfamiliapat?igsh=ZHI0MTc5ajI1cm5n" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: vidalpatcolli@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>

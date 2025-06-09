@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/LOGO 2.png"></a>
+        <h1>NICTÉ KAAP´</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href= "index.html">INICIO</a></li>
+                <li><a href="Quienes Somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/Yellow Bee Honey Label Logo.png" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>QUIENES SOMOS</h2>
+                <p>En "MAK JOBÓN", creemos en el poder de la naturaleza para cuidar nuestra piel. Nacimos con el deseo de crear un producto honesto, artesanal y lleno de beneficios reales. Nuestros jabones están elaborados a mano con miel pura, aceites vegetales y esencias naturales, sin químicos ni aditivos innecesarios.
+
+Cada jabón es una pequeña obra de amor: amor por lo natural, por la piel y por las abejas, que con su trabajo incansable nos regalan uno de los ingredientes más nobles y curativos de la naturaleza.
+
+Nos inspira la simplicidad, la autenticidad y el bienestar. Queremos que cada vez que uses uno de nuestros jabones, sientas un momento de conexión contigo y con la tierra.
+
+Gracias por elegirnos y por apoyar lo hecho a mano, con conciencia y con corazón.</p>    
+            </div>
+        </section>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 NICTÉ KAAP´. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/1C4dE1VuYR/" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/mielfamiliapat?igsh=ZHI0MTc5ajI1cm5n" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: vidalpatcolli@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>

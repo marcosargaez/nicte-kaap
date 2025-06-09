@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/LOGO 2.png"></a>
+        <h1>NICTÉ KAAP´</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href=  "Quienes%20Somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="imagen/Productos/Caramelo.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Cajeta Artesanal</h2>
+                    <p>La cajeta artesanal de miel es un dulce tradicional elaborado a base de leche, miel natural y azúcar, cocido lentamente hasta obtener una consistencia espesa y cremosa..</p>
+                    <p class="precio">$200.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/Productos/Facial.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>Jabon Facial</h2>
+                    <p>Limpieza profunda natural para tu rostro facial.</p>
+                    <p class="precio">$30.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/Productos/Habanero.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Miel Habanero</h2>
+                    <p>Fusión única de sabores que combina la dulzura natural de la miel pura con el picor intenso del chile habanero. Elaborada de forma artesanal, sin aditivos ni conservadores, esta miel destaca por su sabor equilibrado: comienza con una nota suave y dulce, seguida de un toque picante que despierta el paladar.</p>
+                    <p class="precio">$100.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/Productos/Jabon.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Jabon Corporal</h2>
+                    <p> Limpia la piel a profundidad sin resecarla, dejando una sensación de frescura, suavidad y nutrición. Ideal para todo tipo de piel, especialmente la seca o sensible, este jabón ayuda a mantener la piel tersa, luminosa y protegida de forma natural.</p>
+                    <p class="precio">$30.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/Productos/Mieeel.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Miel Pura</h2>
+                    <p>Miel Melipona 100% natural.</p>
+                    <p class="precio">$70.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 NICTÉ KAAP´. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/1C4dE1VuYR/" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/mielfamiliapat?igsh=ZHI0MTc5ajI1cm5n" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: vidalpatcolli@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
